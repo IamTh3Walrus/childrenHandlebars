@@ -28,8 +28,8 @@
         height: 500px;
         margin: auto;
     }
-
-    .carousel-inner{
+    
+    .carousel-inner {
         height: 500px;
     }
     
@@ -80,4 +80,39 @@
     #facebookIcon {
         width: 30px;
         height: 30px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+    
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 575px) {
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+    
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767px) {
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+    
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991px) {
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+    
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199px) {
+        [class*="col-"] {
+            width: 100%;
+        }
     }
