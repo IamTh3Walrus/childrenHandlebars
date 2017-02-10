@@ -23,10 +23,6 @@
         padding-bottom: 200px;
     }
     
-    .carousel-inner {
-        height: 500px;
-    }
-    
     #mainText {
         text-align: center;
         font-size: 20px;
@@ -83,37 +79,4 @@
         margin: 0 auto; // required to center div horizontally
     }
     
-    @media only screen and (max-width: 768px) {
-        /* For mobile phones: */
-        [class*="col-"] {
-            width: 100%;
-        }
-    }
     
-    // Extra small devices (portrait phones, less than 576px)
-    @media (max-width: 575px) {
-        [class*="col-"] {
-            width: 100%;
-        }
-    }
-    
-    // Small devices (landscape phones, less than 768px)
-    @media (max-width: 767px) {
-        [class*="col-"] {
-            width: 100%;
-        }
-    }
-    
-    // Medium devices (tablets, less than 992px)
-    @media (max-width: 991px) {
-        [class*="col-"] {
-            width: 100%;
-        }
-    }
-    
-    // Large devices (desktops, less than 1200px)
-    @media (max-width: 1199px) {
-        [class*="col-"] {
-            width: 100%;
-        }
-    }
