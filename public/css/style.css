@@ -28,6 +28,10 @@
         height: 500px;
         margin: auto;
     }
+
+    .carousel-inner{
+        height: 500px;
+    }
     
     #mainText {
         text-align: center;
