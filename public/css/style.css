@@ -1,0 +1,79 @@
+    html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        height: 100%;
+        margin: 0;
+        padding-top: 70px;
+    }
+    
+    .indexMain {
+        background-color: #49e2d6;
+    }
+    
+    #wrapper {
+        min-height: 100%;
+        position: relative;
+    }
+    
+    #content {
+        padding-bottom: 100px;
+    }
+    
+    #myCarousel {
+        width: 800px;
+        height: 500px;
+        margin: auto;
+    }
+    
+    #mainText {
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    #aboutText {
+        font-size: 14px;
+    }
+    
+    #contactInfo {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    #image4 {
+        width: 400px;
+        height: 300px;
+    }
+    
+    #footer {
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        height: 80px;
+        position: absolute;
+        width: 100%;
+        color: #d4af37;
+        text-align: center;
+        line-height: 4em;
+    }
+    
+    #footerText {
+        color: #d4af37;
+        text-align: center;
+        line-height: 4em;
+    }
+    
+    #linkedinIcon {
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;
+    }
+    
+    #facebookIcon {
+        width: 30px;
+        height: 30px;
+    }
