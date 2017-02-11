@@ -34,22 +34,22 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
     res.render('index');
 });
-
-app.get('/home', function(req, res) {
-    res.render('home');
+app.get('/main', function(req, res) {
+    res.render('main');
 });
 
-app.get('/portfolio', function(req, res) {
-    res.render('portfolio');
+
+app.get('/whoWeAre', function(req, res) {
+    res.render('whoWeAre');
+});
+
+app.get('/howToHelp', function(req, res) {
+    res.render('howToHelp');
 });
 
 app.get('/contact', function(req, res) {
     res.render('contact', {
     csrf: 'CSRF token here'});
-});
-
-app.get('/thankyou', function(req, res) {
-    res.render('thankyou');
 });
 
 app.post('/process', function(req, res){
