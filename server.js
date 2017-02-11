@@ -47,17 +47,22 @@ app.get('/howToHelp', function(req, res) {
     res.render('howToHelp');
 });
 
-app.get('/contact', function(req, res) {
-    res.render('contact', {
-    csrf: 'CSRF token here'});
+app.get('/programs', function(req, res) {
+    res.render('programs');
 });
 
-app.post('/process', function(req, res){
-  console.log('Form : ' + req.query.form);
-  console.log('CSRF token : ' + req.body._csrf);
-  console.log('Email : ' + req.body.email);
-  console.log('Message : ' + req.body.ques);
-  res.redirect(303, '/thankyou');
+app.get('/contact', function(req, res) {
+    res.render('contact', {
+        csrf: 'CSRF token here'
+    });
+});
+
+app.post('/process', function(req, res) {
+    console.log('Form : ' + req.query.form);
+    console.log('CSRF token : ' + req.body._csrf);
+    console.log('Email : ' + req.body.email);
+    console.log('Message : ' + req.body.ques);
+    res.redirect(303, '/thankyou');
 });
 
 //Tells the app to listen to the port.
