@@ -77,7 +77,7 @@
          background-color: #000;
          height: 80px;
          position: absolute;
-         width: 100%;
+         min-width: 100%;
          color: #d4af37;
          text-align: left;
          padding-top: 100px;
