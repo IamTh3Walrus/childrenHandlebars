@@ -52,6 +52,16 @@
          height: 300px;
      }
      
+     #aboutCSO {
+         width: 700px;
+         height: 700px;
+     }
+     
+     #romeoAndJuliet {
+         width: 700px;
+         height: 700px;
+     }
+     
      #donateButton {
          background-color: #000 !important;
          color: #fff;
