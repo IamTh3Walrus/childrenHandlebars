@@ -106,38 +106,4 @@
          margin: auto;
          margin: 0 auto; // required to center div horizontally
      }
-     /* Large desktops and laptops */
-     
-     @media (min-width: 1200px) {
-         #footer {
-             width: 100%;
-         }
-     }
-     /* Landscape tablets and medium desktops */
-     
-     @media (min-width: 992px) and (max-width: 1199px) {
-         #footer {
-             width: 100%;
-         }
-     }
-     /* Portrait tablets and small desktops */
-     
-     @media (min-width: 768px) and (max-width: 991px) {
-         #footer {
-             width: 100%;
-         }
-     }
-     /* Landscape phones and portrait tablets */
-     
-     @media (max-width: 767px) {
-         #footer {
-             width: 100%;
-         }
-     }
-     /* Portrait phones and smaller */
-     
-     @media (max-width: 480px) {
-         #footer {
-             width: 100%;
-         }
-     }
+   
